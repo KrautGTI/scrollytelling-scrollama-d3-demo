@@ -100,8 +100,8 @@ figure {
 }
 
 .step.is-active h2, .step.is-active p{
-    border-right-color: #01080D;
-    color: #01080D;
+    border-right-color: #ffffff;
+    color: #ffffff;
 }
 
 p{
