@@ -13,11 +13,7 @@
   </head>
 
   <body>
-    <div id="language">
-        Language: 
-        <a class="active" href="http://edriessen.com/app/scrollytelling-demo/">EN</a> |
-        <a href="http://edriessen.com/app/scrollytelling-demo/nl.html">NL</a>
-    </div>
+    
     <main>
       <section class="generic" id="intro">
         <h1>
@@ -47,12 +43,11 @@
             
             <div class="step" data-step="1">
               
-                <h2>The Album</h2>
+                <h2>The Empathy Analysis</h2>
                 <p>
-                    The story starts with a music album.
-                    In this case, it's Avicii's posthumous album TIM. 
-                    Each dot represents a song. 
-                    Hover over a dot to check the song titles.
+                    The story starts with a lot of verbatims.
+                    Each dot represents a Bias/Emotion. 
+                    Hover over a dot to check the titles.
                 </p>
             </div>
             
@@ -60,8 +55,8 @@
                 <h2>Sentiment</h2>
                 <p>
                     Using sentiment analysis,
-                    I turn the lyrics of a song into a data point with a sentiment score.
-                    The values range from -1.0 to +1.0 and give each song a
+                    We turn the verbatims into a data point with a sentiment score.
+                    The values range from -1.0 to +1.0 and give each bias/emotion a
                     <span class="label red">negative value</span>, 
                     <span class="label">neutral value</span>, or 
                     <span class="label green">positive value</span>.
@@ -72,7 +67,7 @@
                 <h2>Magnitude</h2>
                 <p>
                     Besides a sentiment score, the analysis returns a magnitude value.
-                    This tells something about the way the sentiment is expressed in a song.
+                    This tells something about the way the sentiment is expressed in a verbatim.
                     Is it weak or strong?
                     The magnitude defines the size of a dot.
                 </p>
@@ -81,34 +76,34 @@
             <div class="step" data-step="3">
                 <h2>Position x by sentiment</h2>
                 <p>
-                    Now that each song has two data values,
-                    I use those to reposition the songs.
+                    Now that each verbatim has two data values,
+                    I use those to reposition them.
                     First, I change the horizontal position (x-axis) based on the sentiment score.
-                    But as you can see, some songs overlap...
+                    But as you can see, some verbatims overlap...
                 </p>
             </div>
             
             <div class="step" data-step="4">
                 <h2>Position y by magnitude</h2>
                 <p>
-                    In the same way I use the sentiment score for the horizontal position of the songs,
-                    I use the magnitude value for the vertical position (y-axis).
+                    In the same way we use the sentiment score for the horizontal position of the verbatims,
+                    we use the magnitude value for the vertical position (y-axis).
                 </p>
             </div>
             
             <div class="step" data-step="5">
                 <h2>Simplify dots</h2>
                 <p>
-                    Now that I have updated the positions of the songs,
-                    I simplify the visualisation for the next phase of the story.
+                    Now that we have updated the positions of the verbatims,
+                    we simplify the visualisation for the next phase of the story.
                 </p>
             </div>
             
             <div class="step" data-step="6">
                 <h2>Draw a path </h2>
                 <p>
-                    Next up, I draw a path from dot to dot, starting at song 1, moving to song 2, 
-                    and continuing like this al the way up to the last song.
+                    Next up, I draw a path from dot to dot, starting at verbatim 1, moving to verbatim 2, 
+                    and continuing like this al the way up to the last verbatim.
                     But the result is a bit edgy...
                 </p>
             </div>
@@ -142,16 +137,14 @@
         <p>
             That's a wrap.
             I hope you enjoyed this scrollytelling demo.
-            The technical notes are available on <a href="https://github.com/edriessen/scrollytelling-scrollama-d3-demo">Github</a>.
+           
         </p>  
-        <p>
-            If you have any question, <a href="http://www.edriessen.com/contact/">please do reach out to me</a>. 
-        </p>    
+            
     </section>
     <section class="generic" id="footer">
         <p>
             <i>
-                This demo is created by Erik Driessen
+                This demo is created by Tyler Doyle
             </i>  
         </p>
       </section>
