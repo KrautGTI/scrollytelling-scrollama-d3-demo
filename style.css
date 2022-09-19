@@ -49,7 +49,7 @@ section#intro{
     padding: 50px 0 0 0;
 }
 #language{
-    background: #01080D;
+    background: #f8f8f8;
     padding: 5px 10px;
     color: #F2E8DC;
     font-size: .8em;
@@ -66,7 +66,7 @@ figure {
     z-index: 10;
 }
 #avicii_viz{
-        background-color: #01080D;
+        background-color: #051528;
     width: 750px;
     float: right;
 }
@@ -95,8 +95,8 @@ figure {
 
 .step h2, .step p{
     padding-right: 25px;
-    border-right: 2px solid #8C8274;
-    color: #8C8274;
+    border-right: 2px solid #38d6ae;
+    color: #38d6ae;
 }
 
 .step.is-active h2, .step.is-active p{
@@ -130,25 +130,25 @@ p.seperator{
     font-weight: 700;
     font-size: 1em;
     margin: 50px 0;
-    border-bottom: 2px solid #8C8274;
+    border-bottom: 2px solid #38d6ae;
 }
 p span.label{
     font-weight: 700;
 }
 
 .red{
-    color: #A6055D;
+    color: #f82c91;
 }
 .grey{
     color: #777;
 }
 .green{
-    color: #00C184;
+    color: #38d6ae;
 }
 
 .tooltip{
     margin: 0 auto;
-    color: #01080D;
+    color: #fff;
     position: absolute;
     bottom: -35px;
     right: 20px;
@@ -159,27 +159,27 @@ p span.label{
 }
 
 .axis path, .axis line {
-    color: #F2E8DC;
-    stroke: #F2E8DC;
+    color: #fff;
+    stroke: #fff;
 }
 .axis text{
-    fill: #F2E8DC;
+    fill: #fff;
 }
 a{
     font-weight: 700;
-    color: #F14F54;
+    color: #fff;
     
 }
 #language a{
-    color: #F2E8DC;
+    color: #fff;
 }
 #language a.active{
     opacity: .5;
 }
 #footer{
     width: 100%;
-    color: #F2E8DC;
-    background-color: #01080D;
+    color: #fff;
+    background-color: #051528;
     margin-top: 50px;
     padding: 50px 0;
 }
