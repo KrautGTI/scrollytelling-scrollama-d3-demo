@@ -13,9 +13,9 @@ const svg = d3.select("#avicii_viz")
 
 // set colours for plot
 const color_mapping = {
-    red: '#A6055D',
+    red: '#f82c91',
     grey: '#777',
-    green: '#00C184'
+    green: '#38d6ae'
 }
 
 // Add X axis
